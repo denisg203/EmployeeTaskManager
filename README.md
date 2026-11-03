@@ -29,5 +29,22 @@ The project follows a clean separation of concerns separated into distinct packa
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/denisg203/EmployeeTaskManager.git](https://github.com/denisg203/EmployeeTaskManager.git)
+   git clone https://github.com/denisg203/EmployeeTaskManager.git
    cd EmployeeTaskManager
+   ```
+
+2. Compile and run the project using Maven:
+   ```bash
+   mvn clean compile
+   mvn exec:java -Dexec.mainClass="org.tucn.pt.Main"
+   ```
+
+## Running the Application
+
+* Launch the desktop application using the Maven execution commands above.
+* Use the Management tab to add employees, create simple or complex system tasks, manage sub-tasks, assign tasks, modify statuses, and view generated statistics.
+* View live rosters and system tasks in the System Overview tab.
+
+## License
+
+This project is developed for academic evaluation purposes.
